@@ -7,9 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-   <ItemGroup>
- <PackageReference Include="Azure.AI.Agents.Persistent" />
-    <PackageReference Include="Azure.Identity" />
-      </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.Agents.Persistent" Version="1.2.0-beta.5" />
+    <PackageReference Include="Azure.Identity" Version="1.16.0" />
+  </ItemGroup>
 
 </Project>
